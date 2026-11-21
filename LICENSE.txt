@@ -1,0 +1,14 @@
+Canlı Çeviri — LİSANS
+Telif hakkı © 2026 Ayberk KOCABUĞA. Tüm hakları saklıdır.
+
+Canlı Çeviri (kaynak kodu, arayüz tasarımı, simgeleri ve belgeleri) Ayberk KOCABUĞA'nın eseridir ve 5846 sayılı
+Fikir ve Sanat Eserleri Kanunu ile korunur. Hak sahibinin yazılı izni olmadan yazılım kopyalanamaz, dağıtılamaz,
+satılamaz, değiştirilip yeniden yayımlanamaz. Hak sahibinden edinen kişi onu kendi bilgisayarında kişisel, eğitim ve
+araştırma amacıyla kullanabilir.
+
+Paket üçüncü taraf bileşenler (Qt, CTranslate2, ONNX Runtime, NVIDIA CUDA kütüphaneleri vb.) ve yazı tipleri
+içerir; bunlar kendi lisanslarına tabidir (bkz. THIRD_PARTY_NOTICES.txt ve fonts\OFL-bildirim.txt).
+Çeviri modeli NLLB-200 CC-BY-NC-4.0 lisanslıdır: ticari olmayan kullanımla sınırlıdır.
+
+YAZILIM "OLDUĞU GİBİ" SUNULUR; hiçbir garanti verilmez. Çevrimiçi ses seçeneği (Edge) kullanıldığında okunan çeviri
+metni Microsoft sunucularına gönderilir.

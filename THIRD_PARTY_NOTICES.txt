@@ -1,0 +1,52 @@
+==============================================================================
+Canlı Çeviri — ÜÇÜNCÜ TARAF BİLEŞENLERİ VE LİSANS BİLDİRİMLERİ
+==============================================================================
+Canlı Çeviri, Ayberk KOCABUĞA'nın yazılımıdır (bkz. LICENSE.txt). Paket aşağıdaki üçüncü taraf bileşenleri
+içerir; her biri kendi lisansına tabidir ve telif hakları kendi sahiplerine aittir. Lisans ifadeleri,
+paketin derleme sırasında kurulu olan sürümünün kendi metadatasından okunmuştur.
+
+PAKETLER
+------------------------------------------------------------------------------
+  - PySide6 6.12.0 — LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+  - shiboken6 6.12.0 — LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+  - numpy 2.5.5 — BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
+  - scipy 1.18.1 — BSD License
+  - ctranslate2 4.9.0 — MIT
+  - faster-whisper 1.2.1 — MIT
+  - onnxruntime 1.32.0 — MIT License
+  - transformers 5.23.0 — Apache 2.0 License
+  - tokenizers 0.23.3 — Apache Software License
+  - sentencepiece 0.2.3 — Apache-2.0
+  - huggingface-hub 2.4.0 — Apache-2.0
+  - piper-tts 1.8.0 — GPL-3.0-or-later
+  - sherpa-onnx 2.0.2 — Apache licensed, as found in the LICENSE file
+  - edge-tts 7.3.1 — GNU Lesser General Public License v3 (LGPLv3)
+  - sounddevice 0.5.6 — MIT
+  - soundfile 0.14.0 — BSD 3-Clause License
+  - psutil 7.2.2 — BSD-3-Clause
+  - pycaw 20260927 — MIT
+  - comtypes 1.5.0 — MIT
+  - pywin32 312 — PSF
+  - proc-tap 1.1.1 — MIT
+  - nvidia-cublas-cu12 12.9.2.10 — LicenseRef-NVIDIA-Proprietary
+  - nvidia-cudnn-cu12 9.28.1.4 — LicenseRef-NVIDIA-Proprietary
+  - nvidia-cuda-nvrtc-cu12 12.9.86 — LicenseRef-NVIDIA-Proprietary
+  - pyinstaller 6.22.3 — GNU General Public License v2 (GPLv2)
+
+LGPL / GPL LİSANSLI BİLEŞENLER (ör. PySide6/Qt, piper-tts)
+------------------------------------------------------------------------------
+Bu bileşenler programdan ayrı dosyalar (DLL, .pyd) olarak _internal\ klasöründe gelir; uyumlu bir sürümle
+değiştirilebilir. Kaynak kodları ilgili projelerin sayfalarında yayımlıdır.
+
+MODELLER (pakete girmez; ilk çalıştırmada indirilir, kendi lisanslarına tabidir)
+------------------------------------------------------------------------------
+  - Whisper large-v3-turbo (CTranslate2 dönüşümü: deepdml/faster-whisper-large-v3-turbo-ct2) — MIT (OpenAI)
+  - NLLB-200 distilled 1.3B (OpenNMT/nllb-200-distilled-1.3B-ct2-int8) — CC-BY-NC-4.0 (Meta): ticari olmayan kullanım
+  - Silero VAD — MIT (faster-whisper ile gelir)
+  - Piper ses modelleri (rhasspy/piper-voices) — her sesin kendi model kartındaki lisans
+  - wespeaker CAM++ konuşmacı gömme modeli (sherpa-onnx dağıtımı) — model kartına bakın
+  - Edge çevrimiçi sesleri (edge-tts): Microsoft hizmetidir, metin Microsoft sunucularına gönderilir
+
+YAZI TİPLERİ
+------------------------------------------------------------------------------
+  - Texturina, Oswald, Cormorant SC — SIL Open Font License 1.1 (fonts\OFL-bildirim.txt)
