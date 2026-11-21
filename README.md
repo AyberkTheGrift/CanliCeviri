@@ -2,6 +2,18 @@
 
 Seçilen bir pencerenin sesini dinler, konuşmayı yazıya döker, seçtiğin dile çevirir; altyazı olarak üst katmanda gösterir ve istenirse sesli okur (dublaj).
 
+## Ekran görüntüleri
+
+Görüntüler uygulamanın kendi arayüzünden alındı; metinler örnek cümlelerdir (canlı ses yakalama değil).
+
+![Ana pencere, gündüz teması](ekran_goruntuleri/ana-pencere-gunduz.png)
+
+![Ana pencere, gece teması](ekran_goruntuleri/ana-pencere-gece.png)
+
+![Oyun modu, altyazı ve sözlük ayarları](ekran_goruntuleri/ayarlar-oyun-sozluk.png)
+
+![Terim sözlüğü](ekran_goruntuleri/terim-sozlugu.png)
+
 ## Kurulum ve çalıştırma
 - Kök klasör (venv, modeller, ses dosyaları): `CANLI_CEVIRI_KOK` ortam değişkeni → yoksa `D:\CanliCeviri` → o da yoksa `%LOCALAPPDATA%\CanliCeviri`. Tüm yollar `yollar.py` içinde.
 - Çalıştır: `CanliCeviri.bat` (ya da `<kök>\venv\Scripts\python.exe canli_ceviri.py`).
